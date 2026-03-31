@@ -1,0 +1,3 @@
+font = ImageFont.truetype("arial.ttf", 80)
+font_size = int(min(width, height) / 10)
+font = ImageFont.truetype("arial.ttf", font_size)
